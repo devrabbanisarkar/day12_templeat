@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_div{
+    width: 1200px;
+    margin: auto;
+}
+.header_menu{background: black;text-align: center;padding: 37px 10px;}
+
+.header_menu ul{list-style: none;}
+.header_menu ul li{display: inline-block;}
+.header_menu ul li a{
+    color: white;
+    text-transform: capitalize;
+    padding:37px 10px;
+    text-decoration: none;
+    font-size: 20px;}
+.header_menu ul li a:hover{}
+
+.header_menu ul li{
+    position: relative;
+}
+.header_menu ul li ul{
+    position: absolute;
+    width: 200px;
+    top: 60px;
+    left: 0;
+    background-color: black;
+    padding: 10px;
+    border-top: 5px solid #76b9ed;
+
+}
+.header_menu ul li ul li{
+    display: inline-block;
+    padding: 10px 0;
+  
+}
+.header_menu ul li ul li a{
+   
+    text-decoration: none;
+    padding: 10px 10px;
+
+}
+.header_menu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.header_menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transition: .4s;
+}
+
+.header_menu ul li:hover ul{}
+
+/* header_section_end */
+/* bannar_section_start */
+
+.bannar_section{
+    background-image: url(https://i.ibb.co/BKBB2y9/young-mens.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bannar_con{
+    text-align: center;
+}
+
+.bannar_con h2{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+}
+.bannar_con p{
+    background-color: white;
+    color: black;
+    padding: 10px 350px;
+   
+}
+.bannar_con a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+      padding: 10px 25px;
+      margin-top: 20px;
+      display: inline-block;
+      font-size: 20px;
+
+
+}
+.about_section{
+    text-align: center;
+    padding: 50px;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+.about_section h2{
+    text-transform: capitalize;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.about_section p{
+    margin-top: 20px;
+}
+.golgol_section{
+    text-align: center;
+}
+
+
+.about_inside{
+    text-align: center;
+    box-shadow: 10px 10px 10px 7px rgb(22, 14, 14,.5);
+    padding: 50px;
+}
+.about_inside h2{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.about_inside p{
+    margin-top: 10px;
+}
+/*  */
+
+.golgol_section{
+    padding: 40px;
+    
+   
+  
+}
+.golgol_con{
+    text-align: center;
+}
+
+.golgol_1{
+    display: inline-block;
+    margin-left: 50px;
+}
+.golgol_2{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.golgol_3{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.golgol_con{
+    padding: 20px;
+}
+
+
+footer{
+    padding: 30px;
+    background-color: #000000;
+    color: white;
+
+}
+ footer ul{
+     list-style: none;
+     text-align: center;
+     margin-top: 25px;
+     
+ }
+ footer ul li{
+     
+     display: inline-block;
+     background-color: #5ea5fa;
+     color: #0c0c0c;
+     padding: 10px 20px;
+     border-radius: 50%;
+     font-size: 20px;
+ }
+
+ footer ul li:hover{
+     background-color: yellow;
+ }
+
+ .footer_con{
+     text-align: center;
+ }
+
+ .Contact-section{
+    background-color: #ddd;
+    width: 1080px;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Contact-section .email{
+    padding-left: 10px;
+    padding-right: 600px;
+    border: none;
+    border-bottom: 1px solid red;
+    margin-right: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Contact-section .submit{
+    background-color: red;
+    color: white;
+    border: none;
+    border-bottom: 1px solid red;
+    padding: 15px 30px;
+    margin-left: -5px;
+
+}
